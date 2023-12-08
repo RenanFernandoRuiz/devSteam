@@ -1,0 +1,55 @@
+.saleCard{
+    background: linear-gradient(180deg, #19587b 0%, #2b87ae 100%);
+    width: 250px;
+}
+
+.saleCard img{
+    object-fit: cover;
+}
+
+.info{
+    padding: 20px;
+    margin: 0;
+}
+
+.info h3{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.priceCard{
+    display: flex;
+    background: #344654;
+    margin: 15px 0;
+}
+
+.priceCard div:first-child{
+    font-weight: 700;
+    font-size: 24px;
+    color: #beeb14;
+    padding: 5px;
+    background: #4c6b22;
+    display: flex;
+    align-items: center;
+}
+
+.priceCard div:last-child{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 12px;
+}
+
+.priceCard div:last-child p{
+    color: #A8A8A8;
+    text-decoration-line: line-through;
+    font-size: 12px;
+}
+
+.priceCard div:last-child h4{
+    color: #beeb14;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}

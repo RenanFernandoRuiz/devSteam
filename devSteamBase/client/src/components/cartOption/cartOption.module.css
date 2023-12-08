@@ -1,0 +1,35 @@
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.option img {
+    object-fit: cover;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 5px;
+    justify-content: center;
+}
+
+.info h3{
+    font-size: 16px;
+}
+
+.info h3:nth-of-type(2){
+    color: #beeb14;
+}
+
+.info p{
+color: #f00;
+font-size: 12px;
+font-style: italic;
+cursor: pointer;
+
+
+}

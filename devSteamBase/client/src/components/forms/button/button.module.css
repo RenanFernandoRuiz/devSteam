@@ -1,0 +1,22 @@
+.button{
+    padding: 15px 5px;
+    border-radius: 10px;
+    background: #549300;
+    border: 0;
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+
+
+    text-align: center;
+}
+
+.button:hover{
+    background: #477d00;
+}
+
+.fullwidth{
+    width: 100%;
+}

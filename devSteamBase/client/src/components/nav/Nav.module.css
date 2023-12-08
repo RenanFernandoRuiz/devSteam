@@ -1,0 +1,29 @@
+.bar {
+  background: #171a21;
+  width: 100%;
+  height: 108px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bar .logo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Inter;
+}
+.bar div img {
+  padding-right: 10px;
+}
+
+.bar input {
+  background: #316282;
+  color:#fff;
+  width: 400px;
+  height: 40px;
+  border: none;
+  padding: 0 20px;
+}

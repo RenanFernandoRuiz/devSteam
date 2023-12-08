@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Tilt+Prism&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body, html {
+  background: #1b2838;
+
+}
+
+.saleContainer{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gameSession{
+  margin: 5em 0;
+}
+
+.gameContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
+  margin-top: 1.3em;
+}
+
+@media (max-width: 850px) {
+  .saleContainer{
+    justify-content: center;
+  }
+}
